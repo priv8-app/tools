@@ -30,7 +30,7 @@ ip_addresses = set()
 
 while len(ip_addresses) < num_ips: # Jumlah IP Di Generate
     ip = (
-        str(random.randint(1, 255))
+        str(random.randint(100, 220))
         + "."
         + str(random.randint(0, 255))
         + "."
